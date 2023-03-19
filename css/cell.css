@@ -1,0 +1,103 @@
+.background__cover{
+    background-image: url(../img/SAEF.jpg);
+    height: 2000px;
+    /* width: cover; */
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* bg */
+}
+
+.background__cover .content {
+    /* height: 100%; */
+    /* width: 100%; */
+    position: absolute;
+    left: 30%;
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+    font-size: xx-small;
+}
+
+.cell{
+    border: 0.2px solid black;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    width: 15px;
+    font-size: xx-small;
+    text-align: center;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
+
+#menu2{
+    margin: 20px 0px 20px 124px;
+}
+
+.button__new, .button__start, .button__end, .button__run, .button__backGround, #fileInput, .button__update, .button__reload, .button__mainPage{
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin: 2px;
+}
+
+.button__mainPage{
+    margin: 10px 0px 0px 125px;
+}
+
+.main__page{ 
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px 0px 20px;
+}
+
+.button__new:hover ,.button__start:hover, .button__end:hover, .button__run:hover, .button__backGround:hover, .button__update:hover, .button__reload:hover, .main__page:hover{
+    color: deeppink;
+    background: beige;
+}
+.button__reload{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button__new{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+.button__run{
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+#fileInput{
+    font-style: 17px;
+}
+
+.cell__size, .button__Status, .caption,.no__img,.reSize{
+    font-size: 20px;
+    color: blue;
+}
+
+.button__Status{
+    margin: 5px 0px 5px 0px;
+}
+
+#menu{
+    margin: 5px 0px 5px 0px;
+}
+
+#cell-size, #board-size-x, #board-size-y{
+    font-size: 17px;
+}
+
+#board{
+    background-color: white;
+}
